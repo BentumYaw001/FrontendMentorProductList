@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { create } from "zustand";
 import { useTriggerStore } from "./TriggerMechanism";
+import ImageAddToCart from ".assetsimagesicon-add-to-cart.svg";
 
 // Zustand store
 export const useStore = create((set) => ({
@@ -126,7 +127,7 @@ function FoodDisplay(props) {
           onClick={handleClick}
           id="addToCart"
         >
-          <img src=".\assets\images\icon-add-to-cart.svg" alt="" />
+          <img src={ImageAddToCart} alt="" />
           <h4>Add to Cart</h4>
         </button>
         <div className="foodDescription">
@@ -142,7 +143,7 @@ function FoodDisplay(props) {
 export default FoodDisplay;
 
 export function Checklist() {
-  const { customerChoices, removeChoice } = useStore();
+  const { customerChoices } = useStore();
 
   return (
     <>
