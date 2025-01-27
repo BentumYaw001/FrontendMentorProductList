@@ -5,11 +5,11 @@ import { useStore } from "./componets/FoodDisplay";
 import { Checklist2 } from "./componets/FoodDisplay";
 import Modal from "./componets/Modal";
 import { useTriggerStore } from "./componets/TriggerMechanism";
+import CarbonNeutral from "assets/images/icon-carbon-neutral.svg";
 
 function App() {
   const arr = useStore((state) => state.customerChoices);
   const IsTriggered = useTriggerStore((state) => state.IsTriggered);
-  let CarbonNeutral = "assets/images/icon-carbon-neutral.svg";
 
   let totalPrice = 0;
   let totalquantity = 0;
