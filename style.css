@@ -1,0 +1,119 @@
+/* * {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 45px 35px;
+  font-family: "Red Hat Text";
+  background-color: hsl(20, 50%, 98%);
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.FoodImage {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Cart {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px 15px;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  margin-top: -25px;
+  left: 30%;
+  cursor: pointer;
+}
+
+.Hidden {
+  display: none;
+}
+
+.Cart img {
+  margin-right: 10px;
+}
+
+.FoodShowcased {
+  position: relative;
+}
+
+.PriceTitle {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.FoodDescription p {
+  font-size: 1rem;
+  font-weight: normal;
+  color: hsl(7, 20%, 60%);
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+.Cart p,
+h3 {
+  color: hsl(14, 65%, 9%);
+}
+
+.Amount {
+  margin-top: 3px;
+  color: hsl(14, 86%, 42%);
+}
+
+.SelectedCart {
+  color: hsl(14, 86%, 42%);
+  font-size: 1.5rem;
+}
+
+.CartStorage {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.CartStorage img {
+  margin-left: 30%;
+}
+
+.CartStorage p {
+  color: hsl(12, 20%, 44%);
+  margin-left: 20%;
+}
+
+@media (min-width: 900px) {
+  main {
+    display: flex;
+    gap: 20px;
+  }
+
+  .FoodSpace {
+    flex-basis: 60%;
+  }
+  .CartStorage {
+    flex-basis: 35%;
+  }
+
+  .FoodItems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .Cart {
+    width: 50%;
+    font-size: 0.75rem;
+    left: 18%;
+  }
+} */
