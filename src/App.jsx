@@ -9,6 +9,7 @@ import { useTriggerStore } from "./componets/TriggerMechanism";
 function App() {
   const arr = useStore((state) => state.customerChoices);
   const IsTriggered = useTriggerStore((state) => state.IsTriggered);
+  let CarbonNeutral = "assets/images/icon-carbon-neutral.svg";
 
   let totalPrice = 0;
   let totalquantity = 0;
@@ -45,10 +46,7 @@ function App() {
                   Order Total <span>${totalPrice.toFixed(2)}</span>
                 </p>
                 <p className="carbonNeutral">
-                  <img
-                    src="assets/images/icon-carbon-neutral.svg"
-                    alt="carbon neutral"
-                  />
+                  <img src={CarbonNeutral} alt="carbon neutral" />
                   This is a <strong>carbon-neutral</strong> delivery
                 </p>
                 <button onClick={IsTriggered}>Confirm Order</button>
