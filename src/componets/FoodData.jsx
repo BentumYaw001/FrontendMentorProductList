@@ -1,8 +1,28 @@
+import image1 from "/assets/images/image-waffle-mobile.jpg";
+import image2 from "/assets/images/image-creme-brulee-mobile.jpg";
+import image3 from "/assets/images/image-macaron-mobile.jpg";
+import image4 from "/assets/images/image-tiramisu-mobile.jpg";
+import image5 from "/assets/images/image-tiramisu-mobile.jpg";
+import image6 from "/assets/images/image-meringue-mobile.jpg";
+import image7 from "/assets/images/image-cake-mobile.jpg";
+import image8 from "/assets/images/image-brownie-mobile.jpg";
+import image9 from "/assets/images/image-panna-cotta-mobile.jpg";
+
+import imagethumbnail1 from "/assets/images/image-waffle-thumbnail.jpg";
+import imagethumbnail2 from "/assets/images/image-creme-brulee-thumbnail.jpg";
+import imagethumbnail3 from "/assets/images/image-macaron-thumbnail.jpg";
+import imagethumbnail4 from "/assets/images/image-tiramisu-thumbnail.jpg";
+import imagethumbnail5 from "/assets/images/image-tiramisu-thumbnail.jpg";
+import imagethumbnail6 from "/assets/images/image-meringue-thumbnail.jpg";
+import imagethumbnail7 from "/assets/images/image-cake-thumbnail.jpg";
+import imagethumbnail8 from "/assets/images/image-brownie-thumbnail.jpg";
+import imagethumbnail9 from "/assets/images/image-panna-cotta-thumbnail.jpg";
+
 const FoodData = [
   {
     image: {
-      thumbnail: "./assets/images/image-waffle-thumbnail.jpg",
-      mobile: "./assets/images/image-waffle-mobile.jpg",
+      thumbnail: imagethumbnail1,
+      mobile: image1,
       tablet: "./assets/images/image-waffle-tablet.jpg",
       desktop: "./assets/images/image-waffle-desktop.jpg",
     },
@@ -12,8 +32,8 @@ const FoodData = [
   },
   {
     image: {
-      thumbnail: "./assets/images/image-creme-brulee-thumbnail.jpg",
-      mobile: "./assets/images/image-creme-brulee-mobile.jpg",
+      thumbnail: imagethumbnail2,
+      mobile: image2,
       tablet: "./assets/images/image-creme-brulee-tablet.jpg",
       desktop: "./assets/images/image-creme-brulee-desktop.jpg",
     },
@@ -23,8 +43,8 @@ const FoodData = [
   },
   {
     image: {
-      thumbnail: "./assets/images/image-macaron-thumbnail.jpg",
-      mobile: "./assets/images/image-macaron-mobile.jpg",
+      thumbnail: imagethumbnail3,
+      mobile: image3,
       tablet: "./assets/images/image-macaron-tablet.jpg",
       desktop: "./assets/images/image-macaron-desktop.jpg",
     },
@@ -34,8 +54,8 @@ const FoodData = [
   },
   {
     image: {
-      thumbnail: "./assets/images/image-tiramisu-thumbnail.jpg",
-      mobile: "./assets/images/image-tiramisu-mobile.jpg",
+      thumbnail: imagethumbnail4,
+      mobile: image4,
       tablet: "./assets/images/image-tiramisu-tablet.jpg",
       desktop: "./assets/images/image-tiramisu-desktop.jpg",
     },
@@ -45,8 +65,8 @@ const FoodData = [
   },
   {
     image: {
-      thumbnail: "./assets/images/image-baklava-thumbnail.jpg",
-      mobile: "./assets/images/image-baklava-mobile.jpg",
+      thumbnail: imagethumbnail5,
+      mobile: image5,
       tablet: "./assets/images/image-baklava-tablet.jpg",
       desktop: "./assets/images/image-baklava-desktop.jpg",
     },
@@ -56,8 +76,8 @@ const FoodData = [
   },
   {
     image: {
-      thumbnail: "./assets/images/image-meringue-thumbnail.jpg",
-      mobile: "./assets/images/image-meringue-mobile.jpg",
+      thumbnail: imagethumbnail6,
+      mobile: image6,
       tablet: "./assets/images/image-meringue-tablet.jpg",
       desktop: "./assets/images/image-meringue-desktop.jpg",
     },
@@ -67,8 +87,8 @@ const FoodData = [
   },
   {
     image: {
-      thumbnail: "./assets/images/image-cake-thumbnail.jpg",
-      mobile: "./assets/images/image-cake-mobile.jpg",
+      thumbnail: imagethumbnail7,
+      mobile: image7,
       tablet: "./assets/images/image-cake-tablet.jpg",
       desktop: "./assets/images/image-cake-desktop.jpg",
     },
@@ -78,8 +98,8 @@ const FoodData = [
   },
   {
     image: {
-      thumbnail: "./assets/images/image-brownie-thumbnail.jpg",
-      mobile: "./assets/images/image-brownie-mobile.jpg",
+      thumbnail: imagethumbnail8,
+      mobile: image8,
       tablet: "./assets/images/image-brownie-tablet.jpg",
       desktop: "./assets/images/image-brownie-desktop.jpg",
     },
@@ -89,8 +109,8 @@ const FoodData = [
   },
   {
     image: {
-      thumbnail: "./assets/images/image-panna-cotta-thumbnail.jpg",
-      mobile: "./assets/images/image-panna-cotta-mobile.jpg",
+      thumbnail: imagethumbnail9,
+      mobile: image9,
       tablet: "./assets/images/image-panna-cotta-tablet.jpg",
       desktop: "./assets/images/image-panna-cotta-desktop.jpg",
     },

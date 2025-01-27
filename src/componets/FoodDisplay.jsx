@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { create } from "zustand";
 import { useTriggerStore } from "./TriggerMechanism";
-import ImageAddToCart from "assets/images/icon-add-to-cart.svg";
-import emptyCart from "assets/images/illustration-empty-cart.svg";
+import ImageAddToCart from "/assets/images/icon-add-to-cart.svg";
+import emptyCart from "/assets/images/illustration-empty-cart.svg";
 
 // Zustand store
 export const useStore = create((set) => ({

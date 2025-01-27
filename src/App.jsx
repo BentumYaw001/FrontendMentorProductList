@@ -5,7 +5,7 @@ import { useStore } from "./componets/FoodDisplay";
 import { Checklist2 } from "./componets/FoodDisplay";
 import Modal from "./componets/Modal";
 import { useTriggerStore } from "./componets/TriggerMechanism";
-import CarbonNeutral from "assets/images/icon-carbon-neutral.svg";
+import CarbonNeutral from "/assets/images/icon-carbon-neutral.svg";
 
 function App() {
   const arr = useStore((state) => state.customerChoices);

@@ -1,6 +1,7 @@
 import { useStore } from "./FoodDisplay";
 import FoodData from "./FoodData";
 import { useTriggerStore } from "./TriggerMechanism";
+import orderConFirmed from "/assets/images/icon-order-confirmed.svg";
 function Modal() {
   const selectedFood = useStore((state) => state.customerChoices);
   const Triggered = useTriggerStore((state) => state.Triggered);
@@ -12,10 +13,7 @@ function Modal() {
     <div className={`startNewOrder ${Triggered ? "" : "Hidden"}`}>
       <div className="orderConfirmed">
         <div className="description">
-          <img
-            src="assets/images/icon-order-confirmed.svg"
-            alt="Order Confirmed"
-          />
+          <img src={orderConFirmed} alt="Order Confirmed" />
           <h2>Order Confirmed</h2>
           <p>We hope you enjoy your food!</p>
         </div>
